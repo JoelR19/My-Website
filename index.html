@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lista de Productos</h1>
+  <ul class="product-list">
+    <li>
+      <span>Product 1</span>
+      <button onclick="showProduct('Product 1', 'Descripción del Producto 1', '$20', 'https://via.placeholder.com/150')">Ver Producto</button>
+    </li>
+    <li>
+      <span>Product 2</span>
+      <button onclick="showProduct('Product 2', 'Descripción del Producto 2', '$30', 'https://via.placeholder.com/150')">Ver Producto</button>
+    </li>
+    <li>
+      <span>Product 3</span>
+      <button onclick="showProduct('Product 3', 'Descripción del Producto 3', '$25', 'https://via.placeholder.com/150')">Ver Producto</button>
+    </li>
+  </ul>
+
+  <div id="product-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
